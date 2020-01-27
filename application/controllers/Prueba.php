@@ -30,7 +30,7 @@ class Prueba extends CI_Controller {
         $dependencia=$this->tramites->getDependencias();
         $data['CategoriaLinea']=$categoria;
         $data['DependenciaLinea']=$dependencia;
-        $this->load->view('portal',$data);
+        $this->load->view('Portal',$data);
         
         // $IdCategoria = $categoria[0];
         // $this->getCategoria($IdCategoria);
