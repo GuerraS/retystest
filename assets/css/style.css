@@ -1,0 +1,871 @@
+
+#GobNavbar{
+    opacity:0.94;
+    }
+.seleccionar_tipo_tramites{
+    margin-top: 10%;
+    text-align:center;
+}
+.tramiteLinea{  
+    background-color: unset;
+    border: unset;
+    color:white;
+    display: flex;
+    margin-top:3%;
+}
+.hyphenation {
+    word-break: break-all;
+    /* Non standard for webkit */
+    word-break: break-word; 
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+}
+.tramiteLinea .icon{
+    display: flex;
+    font-size: 1.8em;
+    justify-content: center;
+    align-items: center;
+    height: 40%;
+    background-color:#9a4f4f;
+}
+.tramiteLinea .titulo{
+    color:black;
+    font-size: 1.2em;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40%;
+    background-color:#e98080;
+}
+.tramiteLinea p{
+    margin:0px auto;
+}
+.tramitePresencial{
+    background-color: unset;
+    border: unset;
+    color:white;
+    display: flex;
+    margin:0px auto;
+    margin-top:3%;
+ }
+ .tramitePresencial .icon{
+    display: flex;
+    justify-content: center;
+    font-size: 1.8em;
+    align-items: center;
+    height: 40%;
+    background-color:#474748;
+
+ }
+ .tramitePresencial .titulo{
+    font-size: 1.2em;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40%;
+    background-color:rgb(108, 108, 121);
+
+ }
+ .tramitePresencial p{
+    margin:0px auto;
+ }
+
+#accesibility-content { 
+    width:60px;
+    height:60px;
+    border-radius: unset;
+    border: unset;
+    background-color: unset;
+}
+
+#divleyenda{
+    margin-top: 5%;
+    justify-content: center;
+    align-items: center;
+}
+
+.Tramite{
+		font-size: 18px;  
+}
+/*Seccion para categorias y dependencias en linea y presenciales*/
+
+ .panel-tramite-linea,.panel-tramite-dependencia,.panel-tramite-presencial{
+    display: none;
+    border-left:1px solid;
+    border-color: rgb(159, 157, 157);
+    
+    margin-bottom:25%;
+
+ }
+ .tramite-liga{
+     display:flex;
+     
+ }
+ .arrow{
+    justify-content: center;
+    align-items: center; 
+    margin:0px auto;
+ }
+ .aviso{
+    font-family: italic;
+     color:rgb(72, 72, 255);
+ }
+ .custom-buttom-noticias{
+     margin-top:4%;
+     margin-bottom: 4%;
+ }
+ 
+        /*Categorias*/
+.categoria-dependencia-Linea,.categoria-dependencia-presencial{
+    display:none;
+    text-align:center; 
+    margin-top: 5%;
+    margin-bottom: 4%;
+}
+
+#tramites_y_servicios_en_linea,#tramites_y_servicios_presenciales{
+    margin-top: 5%;
+    display:none;
+    text-align:center; 
+}
+#informacion-tramite{
+    border-left:1px solid ;
+}
+.categoria-linea,.categoria-presencial{
+    display: flex;
+    margin:0px auto;
+    background-color: white;
+    border:2px solid #9f9d9d;
+}
+.categoria-linea .categoria{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.categoria-linea p{
+    font-size:20px;
+    margin:10px auto;
+}
+.categoria-presencial .categoria,{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.categoria-presencial p{
+    font-size:20px;
+    margin:10px auto;
+}
+
+        /*Dependencias*/
+.dependencia-linea,.dependencia-presencial{
+    display: flex;
+    margin:0px auto;
+    background-color: white;
+    border:2px solid rgb(159, 157, 157);
+}
+.dependencia-presencial-busqueda{
+    display: flex;
+    margin:0px auto;
+    background-color: white;
+    border: none;
+}
+.dependencia-linea .dependencia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dependencia-presencial .dependencia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dependencia-linea p{
+    font-size:20px;
+    margin:10px auto;
+}
+.dependencia-presencial p{
+    font-size:20px;
+    margin:10px auto;
+}
+.buesquedaRety{
+    display:none;
+
+}
+.card{
+    border:none;    
+}
+.activo{
+    background-color: #939393;
+}
+.card-header{
+    background-color: unset;
+    border-bottom-style: inset;
+}
+.card-body{
+    margin-bottom: 5%;
+    margin-left: 5%;
+    border-bottom:1px solid rgb(159, 157, 157);
+}
+  /*Accesibilidad*/
+
+   /*Contraste alto*/
+  body.highcontrast{
+        background-color:#3C4E60;
+        color:#F4F1CA;
+    }
+    body.hoghcontrast .img1{
+        content:url("../icons/iconos-14blanco.png");
+    }
+    body.highcontrast .footer-texto-pu{
+        color:#000000;       
+    }
+    body.highcontrast ol{
+        background-color:#3C4E60;
+    } 
+    body.highcontrast table{
+        background-color:#3C4E60 !important;
+    } 
+    body.highcontrast h4{
+        color:#D0CBCB;
+    }
+    body.highcontrast h5{
+        color:#D0CBCB;
+    }
+    body.highcontrast h2{
+        color:rgb(217, 244, 202);
+    }
+    body.highcontrast #informacion-tramite-categoria h4{
+        color:rgb(217, 244, 202) !important;
+
+    }
+    body.highcontrast #informacion-tramite-categoria h5{
+        color:#F4F1CA !important;
+    }
+    body.highcontrast #informacion-tramite-dependencia h4{
+        color:rgb(217, 244, 202) !important;
+
+    }
+    body.highcontrast #informacion-tramite-dependencia h5{
+        color:#F4F1CA !important;
+    }
+    body.highcontrast .card{
+        background-color:#3C4E60;
+        color:#F4F1CA;
+    }
+    body.highcontrast #buesquedaRety{
+        background-color:#3C4E60 !important;
+        color:#F4F1CA;
+    }
+    body.highcontrast .panel-group a {
+        color:#F4F1CA;
+    }
+    body.highcontrast .subcategory .aviso{
+        color:#F4F1CA;
+    }
+    
+    body.highcontrast #myToolbar{
+        background-color:#FFF9E5;
+    }
+    body.highcontrast .nav-link{
+        color:#3C4E60;
+    }
+    body.highcontrast h1{
+        color:rgb(217, 244, 202);
+    }
+    body.highcontrast #linea-titulo{
+        background-color:#f87070;
+    }
+    body.highcontrast #linea-icono{
+        background-color:#bf4040;
+    }
+
+    body.highcontrast .Trazado-6{
+        background-color:#e4de8e;
+    }
+    body.highcontrast .closebtn{
+        background-color:#a4a066;
+    }
+    body.highcontrast .ajuestes-de-accesibilidad-titulo{
+        color:#3C4E60;
+    }
+    body.highcontrast .seccion-contenido{
+        background-color:#3C4E60;
+        color: #F4F1CA;
+
+    }
+    body.highcontrast .seccion-color-pantalla{
+        background-color:#3C4E60;
+        color: #F4F1CA;
+
+    }
+    body.highcontrast .seccion-ajustes-navegacion{
+        background-color:#3C4E60;
+        color: #F4F1CA;
+
+    }
+    body.highcontrast #btn-increase{
+        background-color:#F4F1CA;
+        color: #3C4E60;
+    }
+    body.highcontrast #btn-decrease{
+        background-color:#F4F1CA;
+        color: #3C4E60;
+    }
+    body.highcontrast #btn-origin{
+        background-color:#F4F1CA;
+        color: #3C4E60;
+    }
+    body.highcontrast .btn-light2{
+        background-color:#F4F1CA;
+        color: #3C4E60;
+    }
+    body.highcontrast .btn-light3{
+        background-color:#F4F1CA;
+        color: #3C4E60;
+    }
+    
+    
+    
+    
+
+    /*Invertir colores*/
+    body.invertcolors{
+        background-color:black;
+        color:white;
+        cursor: url(../icons/iconos-17.png),auto;
+    }
+    body.invertcolors button{
+        
+        cursor: url(../icons/iconos-17.png),auto;
+    }
+    
+    body.invertcolors button{
+        
+        cursor: url(../icons/iconos-17.png),auto;
+    }
+    body.invertcolors .categoria-dependencia-presencial{
+        
+        cursor: url(""),auto;
+    }
+    body.invertcolors h1{
+        color:#bdbdbd;
+    }
+    body.invertcolors h1{
+        color:#bdbdbd;
+    }
+    body.invertcolors table{   
+       background-color: black !important;
+    }
+    body.invertcolors .ajuestes-de-accesibilidad-titulo{
+        color: black;
+    }
+    body.invertcolors #linea-icono{
+        background-color: #65b0b0;
+    }
+    body.invertcolors #linea-titulo{
+        background-color: #167f7f;
+        color:white;
+    }
+    body.invertcolors .Trazado-6{
+        background-color: #6afb63;
+    }
+    body.invertcolors .closebtn{
+        background-color: #9bfa94;
+        color:black;
+    }
+    body.invertcolors .btn-light1{
+        background-color:black;
+        color:white;
+    }
+    body.invertcolors .btn-light2{
+        background-color:black;
+        color:white;
+    }
+    body.invertcolors .btn-light3{
+        background-color:black;
+        color:white;
+    }
+    body.invertcolors .seccion-color-pantalla{
+        background-color:#191b19;
+        color:white;
+    }
+    body.invertcolors .seccion-contenido{
+        background-color:#191b19;
+        color:white;
+    }
+    body.invertcolors .seccion-ajustes-navegacion{
+        background-color:#191b19;
+        color:white;
+    }
+    body.invertcolors .sidenav{
+        background-color: #4af266;
+    }
+    body.invertcolors #informacion-tramite-categoria h4{
+        color:white !important;
+
+    }
+    body.invertcolors h2{
+        color:white !important;
+    }
+    body.invertcolors #informacion-tramite-categoria h5{
+        color:white !important;
+    }
+    body.invertcolors #informacion-tramite-dependencia h4{
+        color:white  !important;
+
+    }
+    body.invertcolors #informacion-tramite-dependencia h5{
+        color:white !important;
+    }
+    body.invertcolors .card{
+        background-color:#191b19;
+        color:white !important;
+    }
+    body.invertcolors .panel-group a {
+        color:white;
+    }
+    body.invertcolors #buesquedaRety{
+        background-color:#3C4E60 !important;
+        color:#F4F1CA;
+    }
+    body.invertcolors #GobNavbar{
+        background-color:#c2c2c2;
+        color:black;
+    }
+    body.invertcolors #GobNavbar a{  
+        color:black;
+    }
+    body.invertcolors #GobNavbar a.denuncia-menu{  
+        color:#009e91;
+    }
+    body.invertcolors .img1{
+        content:url("../icons/iconos-14blanco.png");
+    }
+    body.invertcolors .img2{
+        content:url("../icons/iconos_Mesa de trabajo_1_BLANCO.png");
+    }
+    body.invertcolors .img3{
+        content:url("../icons/iconos-02-blanco.png");
+    }
+    body.invertcolors .img4{
+        content:url("../icons/iconos-03-blanco.png");
+    }
+    body.invertcolors .img5{
+        content:url("../icons/iconos-04-blanco.png");
+    }
+    body.invertcolors .img6{
+        content:url("../icons/iconos-05BLANCO.png");
+    }
+    body.invertcolors .img7{
+        content:url("../icons/iconos-06BLANCO.png");
+    }
+    body.invertcolors .img8{
+        content:url("../icons/iconos-07-blanco.png");
+    }
+    body.invertcolors .img9{
+        content:url("../icons/iconos-08-blanco.png");
+    }
+    body.invertcolors .img10{
+        content:url("../icons/iconos-09BLANCO.png");
+    }
+    body.invertcolors .img11{
+        content:url("../icons/iconos_Mesa de trabajo_1_BLANCO.png");
+    }
+    body.invertcolors .img12{
+        content:url("../icons/iconos_Mesa de trabajo_1_BLANCO.png");
+    }
+    body.invertcolors .img13{
+        content:url("../icons/iconos_Mesa de trabajo_1_BLANCO.png");
+    }
+
+    /*Subrayar Texto*/
+    body.subrayar #leyenda{
+        background-color:#f5eac4;  
+    }
+    body.subrayar h1{
+        background-color:#f5eac4;
+    }
+    
+    body.subrayar h4{
+        background-color:#f5eac4;
+    }
+    body.subrayar h5{
+        background-color:rgb(245, 234, 196);     
+    }
+    body.subrayar h5{
+        background-color:rgb(245, 234, 196);     
+    }
+    body.subrayar .links_busqueda{
+        background-color:#f5eac4 !important;     
+    }
+    
+    body.subrayar #fuente{
+        background-color:#f5eac4;  
+    }
+    body.subrayar #ajuste{
+        background-color:#f5eac4;
+    }
+    body.subrayar .info-tramite-categoria p{
+        background-color:#f5eac4;
+    }
+    body.subrayar .info-tramite-dependencia p{
+        background-color:#f5eac4;
+    }
+    body.subrayar .info-tramite-presencial span{
+        background-color:#f5eac4;
+    }
+    body.subrayar .tramite-liga span{
+        background-color:#f5eac4;
+    }
+    body.subrayar .tramiteLinea p{
+        background-color:#f5eac4;
+    }
+    body.subrayar .categoria-dependencia-Linea p{
+        background-color:#f5eac4;
+    }
+    body.subrayar .categoria-dependencia-presencial p{
+        background-color:#f5eac4;
+    }
+
+    /*ENfatizar*/
+    body.enfatizar h1{
+        border: 2px solid #4a99e8;
+    }
+    body.enfatizar h4{
+        border: 2px solid #4a99e8;
+    }
+    body.enfatizar h2{
+        border: 2px solid #4a99e8;
+    }
+    body.enfatizar h5{
+        border: 2px solid #4a99e8;
+    }
+    body.enfatizar #leyenda{
+        border: 2px solid #4a99e8;
+    }
+    body.enfatizar .links_busqueda{
+        border: 2px solid #4a99e8;
+    }    
+    
+    body.enfatizar #ajuste{
+        border: 2px solid #4a99e8;
+    }
+    body.enfatizar span{
+        border: 2px solid #4a99e8;
+    }
+    
+    body.enfatizar .closebtn{
+        border: 2px solid #4a99e8;
+    }
+    body.enfatizar .info-tramite-categoria p{
+        border: 2px solid #4a99e8;
+    }
+    body.enfatizar .info-tramite-dependencia p{
+        border: 2px solid #4a99e8;
+    }
+    body.enfatizar .info-tramite-presencial span{
+        border: 2px solid #4a99e8;
+    }
+    /*Fuente legible*/
+
+body.legible {
+    font-weight: bold;
+    font-size: 19px;  
+    }
+body.legible #accesibility-content{
+    font-size: 16px;
+}
+body.legible .footer-texto-pu{
+    font-weight: normal;
+    font-size: 13px;
+    }
+body.legible .footer-links-color-pu{
+    font-weight: normal;
+}
+body.legible .footer-social-separador-pu{
+    font-weight: normal;
+}
+body.legible h5{
+    font-weight: bold !important;
+}
+body.legible  h4  {
+    font-weight: bold !important;
+}
+/*Contraste oscuro*/
+body.contraste-oscuro {
+    background-color:black;
+    cursor: url(../icons/iconos-17.png),auto;
+    color: white;  
+}
+
+body.contraste-oscuro .sidenav {
+    background-color:black;
+    color: white;  
+    border:2px solid #b50d99;
+}
+body.contraste-oscuro table {
+    background-color:black !important;
+    
+}
+body.contraste-oscuro .Trazado-6{
+    background-color:rgb(57, 56, 56);
+    color: white;  
+    border-bottom:2px solid #b50d99;
+}
+body.contraste-oscuro .closebtn{
+    background-color:rgb(28, 28, 28);
+    color: white;  
+}
+body.contraste-oscuro .seccion-color-pantalla{
+    background-color:#191b19;
+    color:white;
+    border:2px solid #b50d99;
+}
+body.contraste-oscuro .seccion-contenido{
+    background-color:#191b19;
+    color:white;
+    border:2px solid #b50d99;
+}
+body.contraste-oscuro .seccion-ajustes-navegacion{
+    background-color:#191b19;
+    color:white;
+    border:2px solid #b50d99;
+}
+body.contraste-oscuro h1{
+    color:#93dbb3;
+}
+body.contraste-oscuro #informacion-tramite-categoria h4{
+    color:#93dbb3 !important;
+}
+body.contraste-oscuro h2{
+    color:#93dbb3 !important;
+}
+body.contraste-oscuro #informacion-tramite-categoria {
+    color:#93dbb3 !important;
+}
+body.contraste-oscuro #informacion-tramite-dependencia h4{
+    color:#93dbb3 !important;
+}
+body.contraste-oscuro #informacion-tramite-dependencia p{
+    color:#93dbb3 !important;
+}
+body.contraste-oscuro #informacion-tramite-dependencia h5{
+    color:#93dbb3 !important;
+}
+body.contraste-oscuro .card{
+    background-color:#191b19;
+    color:#93dbb3 !important;
+}
+body.contraste-oscuro .panel-group a {
+    color:#93dbb3 !important;
+}
+body.contraste-oscuro #buesquedaRety{
+    background-color:#3C4E60 !important;
+    color:#93dbb3 !important;
+}
+body.contraste-oscuro #tramiteLinea{
+    background-color: black;
+    border:1px solid #e98080; 
+}
+body.contraste-oscuro #linea-titulo{
+    background-color: black;
+    color: white;
+}
+body.contraste-oscuro #linea-icono{
+    background-color: black;
+    color: white;  
+}
+body.contraste-oscuro #tramitePresencial{
+    background-color: black;
+    border:1px solid #ffffff; 
+}
+body.contraste-oscuro #presencial-titulo{
+    background-color: black;
+    color: white; 
+}
+body.contraste-oscuro #presencial-icon{
+    background-color: black;
+    color: white; 
+}
+body.contraste-oscuro .img1{
+    content:url("../icons/iconos-14blanco.png");
+}
+/*Monocromo*/
+body.monocromo .sidenav {
+    background-color:#e9e9e9;
+    color: black;  
+}
+body.monocromo .Trazado-6{
+    background-color:#bfbfbf;
+    color: black;  
+}
+body.monocromo .closebtn{
+    background-color:#7f7f7f;
+    color: black;  
+}
+body.monocromo .ajuestes-de-accesibilidad-titulo{
+    color: black;  
+}
+body.monocromo .seccion-color-pantalla{
+    background-color:#6a6a6a;
+    color:white;  
+}
+body.monocromo .seccion-contenido{
+    background-color:#6a6a6a;
+    color:white;  
+}
+body.monocromo .seccion-ajustes-navegacion{
+    background-color:#6a6a6a;
+    color:white;  
+}
+body.monocromo #linea-titulo{
+    background-color: #bfbfbf;
+    color: black;
+}
+body.monocromo #linea-icono{
+    background-color: #9f9f9f;
+    color: black;  
+}
+body.monocromo #presencial-titulo{
+    background-color: #bfbfbf;
+    color: black; 
+}
+body.monocromo #presencial-icon{
+    background-color: #9f9f9f;
+    color: black;  
+}
+
+/*COntraste de luz*/
+body.contraste-luz{
+    cursor: url("../icons/iconos-10-GRANDE.png");
+
+}
+body.contraste-luz .sidenav {
+    background-color:white;
+    color: black;  
+    border:1px solid #eeeeee;
+}
+body.contraste-luz .Trazado-6{
+    background-color:rgb(203, 203, 203);
+    color: black;  
+    border-bottom:2px solid #a5a5a5;
+}
+body.contraste-luz .closebtn{
+    background-color:rgb(121, 121, 121);
+    color: black;  
+}
+body.contraste-luz .seccion-color-pantalla{
+    background-color:white;
+    color:black;
+    border:1px solid #414141;
+}
+body.contraste-luz .seccion-contenido{
+    background-color:white;
+    color:black;
+    border:1px solid #414141;
+}
+body.contraste-luz .seccion-ajustes-navegacion{
+    background-color:white;
+    color:black;
+    border:1px solid #414141;
+}
+body.contraste-luz .btn-light1{
+    background-color:white;
+    color:black;
+    border:1px solid #d7d7d7;
+}
+body.contraste-luz .btn-light2{
+    background-color:white;
+    color:black;
+    border:1px solid #d7d7d7;
+}
+body.contraste-luz .btn-light3{
+    background-color:white;
+    color:black;
+    border:1px solid #d7d7d7;
+}
+body.contraste-luz h1{
+    color:#000000;
+}
+body.contraste-luz #tramiteLinea{
+    background-color: white;
+    border:1px solid #e98080; 
+}
+body.contraste-luz #linea-titulo{
+    background-color: white;
+    color: black;
+}
+body.contraste-luz #linea-icono{
+    background-color: white;
+    color: black;  
+}
+body.contraste-luz #tramitePresencial{
+    background-color: white;
+    border:1px solid black; 
+}
+body.contraste-luz #presencial-titulo{
+    background-color: rgb(255, 255, 255);
+    color: black; 
+}
+body.contraste-luz #presencial-icon{
+    background-color: rgb(255, 255, 255);
+    color: black;  
+}
+/*Cursos grande negro*/
+
+body.cursor-negro-grande{  
+    cursor: url(../icons/iconos-16.png),auto; 
+}
+body.cursor-negro-grande button{  
+    cursor: url(../icons/iconos-16.png),auto; 
+}
+footer.cursor-negro-grande button{  
+    cursor: url(../icons/iconos-16.png),auto; 
+}
+/*Cursos grande blanco*/
+body.cursor-blanco-grande{  
+    cursor: url(../icons/iconos-17.png),auto; 
+}
+body.cursor-blanco-grande button{  
+    cursor: url(../icons/iconos-17.png),auto; 
+}
+body.enfatizar-al-pasar-cursor p:hover{
+    border: 2px solid #4a99e8 !important; 
+    font-size: 200%;
+}
+body.enfatizar-al-pasar-cursor h1:hover{
+    border: 2px solid #4a99e8;
+    font-size: 350%; 
+}
+body.enfatizar-al-pasar-cursor h2:hover{
+    border: 2px solid #4a99e8; 
+    font-size: 350%;
+}
+
+body.enfatizar-al-pasar-cursor h3:hover{
+    border: 2px solid #4a99e8; 
+    font-size: 50px;
+}
+body.enfatizar-al-pasar-cursor h4:hover{
+    border: 2px solid #4a99e8; 
+    font-size: 350%;
+}
+body.enfatizar-al-pasar-cursor h5:hover{
+    border: 2px solid #4a99e8 !important;
+    font-size: 210%; 
+}
+body.enfatizar-al-pasar-cursor span:hover{
+    border: 2px solid #4a99e8 !important;
+    font-size: 150%; 
+}
+body.enfatizar-al-pasar-cursor span:hover{
+    border: 2px solid #4a99e8 !important; 
+}
+
+
+
+    

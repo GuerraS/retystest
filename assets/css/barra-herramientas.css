@@ -1,0 +1,156 @@
+.sidenav{ 
+    border-radius: 7.5px;
+    background-color: #b50d99;
+    padding-bottom: 1%;
+    display: none;
+    margin-top:4%; 
+    position: fixed;
+    z-index: 9999;
+    overflow-x: hidden;
+    height: 90%;
+    justify-content: center;
+    align-items: center;
+  }
+  .Trazado-6{
+    width: 100%;
+    height: 28px;
+    background-color: #95049c;
+    border-top-right-radius: 7.5px;
+    border-top-left-radius: 7.5px;
+  }
+  .closebtn{
+    float: right;
+    background-color: #64056b;
+    height: 100%;
+    width: 15%;
+    border-top-right-radius: 7.5px;
+    color: white;
+    border: unset;
+  }
+  .ajuestes-de-accesibilidad-titulo{
+    margin: 4%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.31;
+    font-weight: bold;
+    font-size: 19px;
+    letter-spacing: 2.9px;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .ajustes-contenido-titulo,.ajustes-color-pantalla-titulo,.ajustes-navegacion-titulo{
+    border-bottom:1px solid;  
+  }
+
+
+
+
+
+  /* seccion de contenido */
+  .seccion-contenido{
+    width: 96%;
+    border-radius: 7.5px;
+    background-color: #e5e4e5;
+    margin: 2%;
+    padding-top: 1%; 
+    padding-bottom: 5%;
+  }
+  .ajustes-tamaño-fuente-titulo{
+    text-align: center;  
+    margin-bottom: 3%;
+  }
+  .tamaño-fuente-titulo{
+    display: flex;
+    margin:0px auto;
+    margin-top:3%;
+  }
+  .fuente-imagen{
+    
+   
+    width: 10px;
+  }
+  .fuente-texto{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10px;
+  }
+  .btn-light1{
+    margin-top: 10%;
+    border: unset; 
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background-color: #ffffff;
+    height: 50px;    
+  }
+  
+  .btn-light2{
+    margin-top: 10%;
+    border: unset; 
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background-color: #ffffff;
+    height: 50%;
+    
+  }
+  .modificar-fuente{
+    display: flex;
+    text-align: center;
+  }
+  
+
+
+
+    /*seccion color y pantalla*/
+  .seccion-color-pantalla{
+    width: 96%;
+    border-radius: 7.5px;
+    background-color: #e5e4e5;
+    padding-top: 1%; 
+    padding-bottom: 5%;
+    margin: 2%;
+  }
+  
+  
+  .btn-light3{
+    margin-top: 10%;
+    border: unset; 
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background-color: #ffffff;
+    height: 50%;
+  }
+
+
+
+  /*seccion ajustes de navegacion*/
+  .seccion-ajustes-navegacion{
+    width: 96%;
+    border-radius: 7.5px;
+    background-color: #e5e4e5;
+    padding-top: 1%; 
+    padding-bottom: 5%;
+    margin: 2%;
+    
+  }
+  .btn-light3{ 
+    margin-top: 10%;
+    border: unset; 
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background-color: #ffffff;
+    height: 100px;
+  }
+
+  /*Accesibilidad*/
+
+   /*Contraste alto*/
+  
+   
